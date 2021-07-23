@@ -1,0 +1,98 @@
+.slider-bg{
+    background-color:#fc9e93;
+}
+.nav-buy-now{
+    background-image:linear-gradient(#9da6a8, #04ec6d);
+    padding: 5px;
+    border-radius: 3px;
+    border: 0;
+    font-weight: 700;
+    font-family:monospace;
+}
+.nav-buy-now-2{
+    background-image:linear-gradient(#94dff0, #04b6ec);
+    padding: 5px;
+    border-radius: 3px;
+    border: 0;
+    font-weight: 700;
+    font-family:cursive;
+}
+.nav-buy-now-3{
+    background-image:linear-gradient(#f065e4, #0c7de7);
+    padding: 5px;
+    border-radius: 3px;
+    border: 0;
+    font-weight: 700;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-buy-now-4{
+    background-image:linear-gradient(#75d8ee, #08ff98);
+    padding: 5px;
+    border-radius: 3px;
+    border: 0;
+    font-weight: 700;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-buy-now-5{
+    background-image:linear-gradient(#89e2f7, #02ff41);
+    padding: 5px;
+    border-radius: 3px;
+    border: 0;
+    font-weight: 700;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.catagories-bg{
+    background-color: #ff6a14;
+}
+.all-h2{
+    
+    background: -webkit-linear-gradient(rgb(245, 56, 56),gold);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+  }
+  .title-3{
+    background: -webkit-linear-gradient(rgb(245, 56, 56),gold);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-family: monospace;
+  }
+  .title-2{
+    background: -webkit-linear-gradient(rgb(255, 145, 0),rgb(0, 255, 170));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-family: cursive;
+  }
+  .title-1{
+    background: -webkit-linear-gradient(rgb(2, 153, 253),rgb(255, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-family: monospace;
+
+  }
+.button-sign{
+    border: 0;
+    background-color: #ff4800;
+    padding: 4px 96px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.another-sign{
+    border: 0;
+    background-color: #ff4800;
+    margin-left: 4px;
+    border-radius: 4px;
+    font-weight: 400;
+
+}
+.subscribe-bg{
+    background-image: linear-gradient(#eee, #333);
+    
+        
+        
+      
+}
+  

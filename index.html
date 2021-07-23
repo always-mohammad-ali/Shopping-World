@@ -5,17 +5,401 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping World</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b4b295e3ab.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
     <header>
+      <!-- nav bar -->
+        <section class="container">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><i class="fas fa-shopping-cart fa-3x text-warning"></i></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Shoes">Shoes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Backpack">Backpack</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Fruits">Fruits</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Fast-Food">Fast-Food</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Mobile">Mobile</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Subscribe">Subscribe</a>
+                  </li>
+                  
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search Product" aria-label="Search">
+                  <button class="btn btn-outline-warning" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </section>
+          <!-- image slider-bg -->
+          <section class="container">
+                  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="row slider-bg  p-5 d-flex align-items-center">
+                          <div class="col-lg-7">
+                            <h1>BT 5.0 Headphone </h1>
+                            <p>This is cool dude headphone.Its sound system is so high quality and it has so demand in market.I think now this time,This is the best headphone.</p>
+                            <h1>$301</h1>
+                            <button class="nav-buy-now">Buy Now</button>
 
+
+                          </div>
+                          <div class="col-lg-5">
+                            <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+
+                          </div>
+                        </div>
+
+                        
+                      </div>
+                      <div class="carousel-item">
+                        <div class="row slider-bg p-5 d-flex align-items-center">
+                          <div class="col-lg-7">
+                            <h1>Samsung 64 Inch LED (4K) </h1>
+                            <p>This is Samsung 64 Inch LED (4K) Telivison.It is highly recommended for Zee Bangla and Star Jalsa Lover.I think now this time,This is the perfect choice.</p>
+                            <h1>$1599</h1>
+                            <button class="nav-buy-now">Buy Now</button>
+
+
+                          </div>
+                          <div class="col-lg-5">
+                            <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="row slider-bg  p-5 d-flex align-items-center">
+                          <div class="col-lg-7">
+                            <h1>XBOX ONE S </h1>
+                            <p>The latest version of Microsoft Xbox is XBOX One S. Now this is availabale on our site and it is the most sell product in this month. So You can take it from our website with some discount.</p>
+                            <h1>$650</h1>
+                            <button class="nav-buy-now">Buy Now</button>
+
+
+                          </div>
+                          <div class="col-lg-5">
+                            <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+          </section>
     </header>
     <main>
+      <!-----------
+        catagories
+      ----------- -->
+      <section class="container my-4">
+        
+        <div class="row g-5">
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="p-3 border catagories-bg d-flex align-items-center justify-content-between rounded-3">
+              <h1 class="text-white">Shoe</h1>
+              <img src="images/categories/shoes.png" alt="">
+            
+         </div>
+        </div>
+        
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="p-3 border catagories-bg d-flex align-items-center justify-content-between rounded-3">
+              <h1 class="text-white">Bag</h1>
+              <img src="images/categories/bag.png" alt="">
+            
+         </div>
+        </div>
+        
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="p-3 border catagories-bg d-flex align-items-center justify-content-between rounded-3">
+              <h1 class="text-white">Watch</h1>
+              <img src="images/categories/watch.png" alt="">
+            
+         </div>
+        </div>
+         
+         
+        </div>
+      
+    </section>
+    <!----------
+      shoe
+    --------------->
+    <section class="container my-4 " id="Shoes">
+      <h2 class="all-h2">Shoes</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4 ">
+        <div class="col col-md-6 col-lg-4 col-sm-12 col-lg-4">
+          <div class="card h-100 border-0 shadow-lg">
+            <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title title-1">Airmax Ladykiller</h5>
+              <p class="card-text">The latest model of Airmax Brand is Airmax Ladykiller and now trending shoes is Red Ladykiller. This is also known as a national shoes in BD because of most number of tiktoker celebrity use this shoe. </p>
+            </div>
+            <div class="m-3">
+              <button class="nav-buy-now">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col col-md-6 col-lg-4">
+          <div class="card h-100 border-0 shadow-lg">
+            <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title title-2">Nike W420</h5>
+              <p class="card-text">Another Trending shoe of Nike brand is Nike W420. It's availabale in our stock.So you can easily collect it from here with some discount. </p>
+            </div>
+            <div class="m-3">
+              <button class="nav-buy-now">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col col-md-6 col-lg-4">
+          <div class="card h-100 border-0 shadow-lg">
+            <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title title-3">ZZerS 350</h5>
+              <p class="card-text"> You know, ZZerS 350 has the exceptional name but I wanna say to guyz that not only this have exceptional name but also have exceptional attributes.It makes only for using on Tiktok, Likee and and Bigo Live...Thanks </p>
+            </div>
+            <div class="m-3">
+              <button class="nav-buy-now">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------
+       backpack 
+      -------->
+      <section class="container my-4" id="Backpack">
+        <h2 class="all-h2">Backpack</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-lg">
+              <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title title-3">Willpower Top-Mountain</h5>
+                <p class="card-text">The latest model of OziO Brand is Willpower Top-Mountain and now trending bag is it. This is also known as a national bag in BD because of most number of tiktoker celebrity use this bag. </p>
+              </div>
+              <div class="m-3">
+                <button class="nav-buy-now-2">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-lg">
+              <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title title-2">Burton FE</h5>
+                <p class="card-text">Another Trending bag of Burton brand is Burton FE. It's availabale in our stock.So you can easily collect it from here with some discount. </p>
+              </div>
+              <div class="m-3">
+                <button class="nav-buy-now-2">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-lg">
+              <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title title-1">Max Euro</h5>
+                <p class="card-text"> You know, Max Euro has the exceptional name but I wanna say to guyz that not only this have exceptional name but also have exceptional attributes.It makes only for using on Tiktok, Likee and and Bigo Live...Thanks </p>
+              </div>
+              <div class="m-3">
+                <button class="nav-buy-now-2">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!------
+         foods
+        ---- -->
+      <section class="container my-4" id="Fruits">
+        <h2 class="all-h2">Fruits</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-lg">
+              <img src="images/foods/food-1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title title-1">Asian Fruit</h5>
+                <p class="card-text">There are many types of fruit item but included some catagories fruits in many types of fruit item. But Asian Fruit item included almost 101 type of fruits. </p>
+              </div>
+              <div class="m-3">
+                <button class="nav-buy-now-3">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-lg">
+              <img src="images/foods/food-2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title title-2">Fruit Salad</h5>
+                <p class="card-text">Another Trending Fruit Item  is Fruit Salad. It's availabale in our stock.So you can easily collect it from here with some discount. </p>
+              </div>
+              <div class="m-3">
+                <button class="nav-buy-now-3">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-lg">
+              <img src="images/foods/food-3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title title-3">Vinegary Salad</h5>
+                <p class="card-text"> You know, Vinegary Salad has the exceptional name but I wanna say to guyz that not only this have exceptional name but also have exceptional attributes.It makes only for blood pressure patients because it helps to secure from diseases. </p>
+              </div>
+              <div class="m-3">
+                <button class="nav-buy-now-3">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> 
+      <!------- 
+        fast-food
+      --------->
+      <section class="container my-4" id="Fast-Food">
+        <h2 class="all-h2">Fast-Food</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-lg">
+              <img src="images/fast-food/fast-food-1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title title-3">Veg-Pizza</h5>
+                <p class="card-text">There are many types of Pizza item but this is so special because of almost healthy person like this type of Vegetable Pizza. Order us and chill with your Favourite One. </p>
+              </div>
+              <div class="m-3">
+                <button class="nav-buy-now-4">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-lg">
+              <img src="images/fast-food/fast-food-2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title title-2">YuM-Burger</h5>
+                <p class="card-text">Another Trending Burger Item  is YuM-Burger. It's availabale in our Cafe.So you can easily order it from here with some discount. </p>
+              </div>
+              <div class="m-3">
+                <button class="nav-buy-now-4">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-lg">
+              <img src="images/fast-food/fast-food-3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title title-1">Chicken-Lollipop</h5>
+                <p class="card-text"> You know, Chicken-Lollipop has the exceptional name but I wanna say to guyz that not only this have exceptional name but also have exceptional attributes.It makes only for those crazy guys who coding on Eid UL-Adha. !Ha !Ha </p>
+              </div>
+              <div class="m-3">
+                <button class="nav-buy-now-4">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> 
+      <!-------
+         mobile
+         ------->
+         <section class="container my-5" id="Mobile">
+          <h2 class="all-h2">Our Top Mobile</h2>
+          <div class="row row-cols-1 row-cols-md-3 g-4 ">
+            <div class="col col-md-6 col-lg-4">
+              <div class="card h-100 border-0 shadow-lg">
+                <img src="images/mobile/mobile-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title title-1">iPhone 12 Pro</h5>
+                  <p class="card-text">The latest model of Apple Brand is iPhone 12 pro and now trending Mobile phone is it. This is also known the best phone in the world. </p>
+                </div>
+                <div class="m-3">
+                  <button class="nav-buy-now-5">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col col-md-6 col-lg-4">
+              <div class="card h-100 border-0 shadow-lg">
+                <img src="images/mobile/mobile-2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title title-2">Samsung S21 Ultra</h5>
+                  <p class="card-text">Another Top Trending mobile of Samsung brand is Samsung S21 Ultra. It's availabale in our stock.So you can easily order it from here with some discount. </p>
+                </div>
+                <div class="m-3">
+                  <button class="nav-buy-now-5">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col col-md-6 col-lg-4">
+              <div class="card h-100 border-0 shadow-lg">
+                <img src="images/mobile/mobile-3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title title-3">Xiaomi Mi 11 Pro</h5>
+                  <p class="card-text"> This phone is manufactured by Xiaomi Brand.Xiaomi's latest flagship killer is Mi 11 Pro. This phone feature is high quality and it is so Fast and Smooth with 12gb Ram and snapdragon 888.</p>
+                </div>
+                <div class="m-3">
+                  <button class="nav-buy-now-5">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!---------
+          Subscribe
+          --------->
+          <section class="container d-flex justify-content-center align-items-center subscribe-bg  " style="height: 450px;" id="Subscribe">
+          <div>
+            <h1>Let's Connect With Us.</h1>
+            <h5>For Update of New Products, Price and Discount Offer. </h5>
+            <input class="mt-3 form-control" type="text" placeholder="Enter Your Email">
+            <br>
+            <input class="mt-1 form-control" type="password" name="" id="" placeholder="Password">
+            
+            <a class="text-decoration-none text-primary fw-bolder" href="Mohammad ALI">Forgot Password?</a>
+            <br>
+            <button class="mt-2 border-0  rounded-2 fw-bold">Login</button>
+            <br>
+            <button class=" mt-4 button-sign ">SIGN IN</button>
+            <br>
+            <p class="text-primary mt-2 fw-bolder">New to Shopping World?<button class="another-sign">Sign up!</button>
+          </div>
+          </section>
 
+       
     </main>
-    <footer>
-
+    <footer class="d-flex justify-content-center align-items-center my-5 row-sm-12">
+      <div>
+      <i class="far fa-copyright fa-1x text-warning "></i> <span>2003-2021 Reserved by Owner --Always MOHAMMAD ALI--</span>  
+      </div>
     </footer>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
